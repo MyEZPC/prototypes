@@ -7,7 +7,7 @@ var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
-
+// This is my design
 for(var i = 0; i < modeButtons.length; i++){
 	modeButtons[i].addEventListener("click", function(){
 		modeButtons[0].classList.remove("selected");
