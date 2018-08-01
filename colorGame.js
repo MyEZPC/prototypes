@@ -17,7 +17,6 @@ for(var i = 0; i < modeButtons.length; i++){
 		reset();
 	})
 }
-
 function reset(){
 	//generate all new colors
 	colors = generateRandomColors(numOfSq);
